@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "users/index" => "users#index"
+
+  get "posts/index" => "posts#index"
 end
